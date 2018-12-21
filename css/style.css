@@ -10974,3 +10974,19 @@ input[type=number]::-webkit-inner-spin-button {
 /*====================================================*/
 
 /*# sourceMappingURL=style.css.map */
+
+@media (max-width: 567px) {
+  .fix-app-icons {
+    margin-left: 2em;
+  }
+
+  .fix-smartphone {
+    top: -3em !important;
+  }
+}
+
+@media (min-width: 567px) and (max-width: 992px) {
+  .fix-smartphone {
+    top: -5em !important;
+  }
+}
